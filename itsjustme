@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lyca's Profile</title>
+</head>
+<body> {
+    background-image: url("bgdesert.jpg");
+}
+
+
+<h1>My Profile</h1>
+<p>I like to have fun even though I don't look like one. 
+I am a curious lady who wishes to explore the world and see all the different things that this world offers.</p>
+
+</body>
+</html>
