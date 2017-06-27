@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lyca's Profile</title>
+</head>
+<style> 
+  h1   {color: red;
+    padding: 50px;
+    text align: center; }
+  p    {color: white;}
+  </style>
+<body background="https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif">
+  </body>
+
+    <body>
+      <h1><center>Lyca's Profile </center></h1>
+      <p> <mark> I like butterflies! </mark> </p>
+<img src="http://bestanimations.com/Animals/Insects/Butterflys/butterfly-gif-animation-18.gif" alt"" style="width:180px;height:180px;">
+  </body>
+</html>
