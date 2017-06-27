@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lyca's Profile</title>
+<title> Lyra lyra</title>
 </head>
-<style> 
-  h1   {color: red;
-    padding: 50px;
-    text align: center; }
-  p    {color: white;}
-  </style>
-<body background="http://pa1.narvii.com/6479/9d0fd5efec90b99a63b1468cac83dd86f28b61d6_hq.gif">
-  </body>
-    <body>
-      <h1><center>MAMA_LYRA </center></h1>
-      <p> <mark> I like MAMAMOOOOOOO! </mark> </p>
-<img src="http://bestanimations.com/Animals/Insects/Butterflys/butterfly-gif-animation-18.gif" alt"" style="width:180px;height:180px;">
-  </body>
+<body>
+
+<h1>Mama Lyra</h1>
+<p>This is a paragraph.</p>
+
+</body>
 </html>
