@@ -38,16 +38,46 @@ p{ font-family: courier ;
 	     <h1> <center>Lyca's Profile
 			      <img src ="https://m.popkey.co/b02639/pDgKO.gif" alt="" style="width:98px;height:98px;">
 			      </center></h1>
-	<table style="border: 2px solid white";"width:50px;">
-	<tr>
-	<td>
+	    .container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    
+    /*for demo purposes only */
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+.column-one {
+    order: 3;
+}
+.column-two {
+    order: 1;
+}
+.column-three {
+    order: 4;
+}
+.column-four {
+    order: 2;
+}
+.column-five {
+    order: 5;
+}
+	    <div class="container">
+		   <div class="column column-one">Column one</div>
+		   <div class="column column-two">Column two</div>
+		   <div class="column column-three">Column three</div>
+		   <div class="column column-four">Column four</div>
+		   <div class="column column-five">Column five</div>
+		</div>
 		<p> <mark> I like butterflies! <br  />
 		<img src="http://bestanimations.com/Animals/Insects/Butterflys/animated-butterfly-gif-61.gif" alt"" style="width:180px;height:180px;">
 		 <br /> I also like to listen to musics and play guitar!! 
 		  <br />I'm not that good though. But I like playing it!! </mark> </p>
  		<img src ="https://media.tenor.com/images/d255f86cd4be8a67347842a4c615f06c/tenor.gif" alt"" style="width:200px;height:180px;" > <img src = "https://m.popkey.co/313999/NMlO_f-maxage-0.gif" alt"" style="width:180px;height:180px;">
-	</td>
-	</tr>
-	</table>
+	
   </body>
 </html>
