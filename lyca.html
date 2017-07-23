@@ -20,13 +20,48 @@ p {
 <h1>Welcome</h1>
 <p>Hello! I wanna know your name!</p></p>
 
+<!DOCTYPE html>
+<html>
+<title>Lyca's Blog</title>
+<style>
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome</h1>
+<p>Hello! I wanna know your name!</p>
+<p id="demo"></p>
+
+<p id="demo"></p>
+
 <script>
 function myFunction() {
-    var x = document.getElementById("demo");
-    x.style.fontSize = "25px";
-    x.style.color = "red";
+    var txt;
+    var person = prompt("Please enter your name:",);
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "Hello " + person + "! How are you today?";
+    }
+    document.getElementById("demo").innerHTML = txt;
 }
 </script>
+
+<button onclick="myFunction()">Enter your Name!</button>
+
+</body>
+</html>
 
 <button onclick="myFunction()">Enter your Name!</button>
 
