@@ -58,6 +58,21 @@ Please Enter Your Name: </br>
 <input type="outputname()" style="display: none" />
 </form>
 <button onclick="outputname()">Submit</button>
+	
+<script>
+
+function outputname() {
+var x,y,name,a,b,answer;
+x=document.getElementById("form1") ;
+y=x.elements["name"].value;
+document.getElementById("demo").innerHTML="Hello "+y+",<br>";
+document.getElementById("demo").innerHTML+=y+ ",Thank you for visiting my page! Have fun! <br>";
+
+}
+
+</script>
+<p id="demo"></p>
+
 
 <div class="container">
   <div class="row">
@@ -78,21 +93,5 @@ Please Enter Your Name: </br>
     </div>
   </div>
 </div>
-
-<script>
-
-function outputname() {
-var x,y,name,a,b,answer;
-x=document.getElementById("form1") ;
-y=x.elements["name"].value;
-document.getElementById("demo").innerHTML="Hello "+y+",<br>";
-document.getElementById("demo").innerHTML+=y+ ",Thank you for visiting my page! Have fun! <br>";
-
-}
-
-</script>
-<p id="demo"></p>
-
-
 </body>
 </html>
