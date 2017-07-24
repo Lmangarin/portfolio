@@ -1,42 +1,98 @@
 <!DOCTYPE html>
-<html>
-<title>Lyca's Blog</title>
-<style>
-body {
-    background-color: lightblue;
-}
-h1 {
-    color: white;
-    text-align: center;
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-</style>
+<html lang="en">
+<head>
+  <title>Lyca's Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style>
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+body {
+  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-443344.jpg") no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.jumbotron {
+    color: black;
+    font-family: verdana;
+    font-size: 30px;
+}
+
+.jumbotron {
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+p {
+	font-family: verdana;
+    font-size: 15px;
+    }
+p1 {
+	font-family: verdana;
+    font-size: 20px;
+    }
+
+</style>
 <body>
 
-<h1>Welcome</h1>
-<p>Hello! I wanna know your name!</p>
-<p id="demo"></p>
 
-<p id="demo"></p>
+<div class="jumbotron text-center">
+  <h1>Welcome to my site!!!!</h1>
+</div>
+<p1>Hello! I wanna know your name!</p1>
+
+<form id="form1">
+Please Enter Your Name: </br>
+<input name="name" type="text" size="20">
+<input type="outputname()" style="display: none" />
+</form>
+<button onclick="outputname()">Submit</button>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About Me!</h3>
+      <p> I am a sole gamer </p>
+      <p>I love adventure and challenges!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Girls Who Codes</h3>
+      <p>Here are some of my projects:</p>
+      <p>I really enjoy being on this program</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Graffiti Wall</h3>
+      <p>Blogs blogs blogs</p>
+      <p>Comments Comments Comments</p>
+    </div>
+  </div>
+</div>
 
 <script>
-function myFunction() {
-    var txt;
-    var person = prompt("Please enter your name:", );
-    if (person == null || person == "") {
-        txt = "User cancelled the prompt.";
-    } else {
-        txt = "Hello " + person + "! How are you today?";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-</script>
 
-<button onclick="myFunction()">Enter your Name!</button>
+function outputname() {
+var x,y,name,a,b,answer;
+x=document.getElementById("form1") ;
+y=x.elements["name"].value;
+document.getElementById("demo").innerHTML="Hello "+y+",<br>";
+document.getElementById("demo").innerHTML+=y+ ",Thank you for visiting my page! Have fun! <br>";
+
+}
+
+</script>
+<p id="demo"></p>
+
 
 </body>
 </html>
