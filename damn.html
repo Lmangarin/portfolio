@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lyca's Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+/*body {
+  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-443344.jpg") no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+} */
+body {
+  background-image: url("https://pbs.twimg.com/media/CD1RqdZUEAAiDL2.jpg");
+}
+.girl {
+    /* The image used */
+    background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-443344.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.guy {
+    /* The image used */
+    background-image: url("https://images5.alphacoders.com/743/thumb-1920-743976.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.met {
+    /* The image used */
+    background-image: url("https://images.alphacoders.com/736/thumb-1920-736461.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.together {
+    /* The image used */
+    background-image: url("https://images3.alphacoders.com/793/thumb-1920-793579.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last {
+    /* The image used */
+    background-image: url("https://images2.alphacoders.com/742/742320.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.jumbotron {
+    background: url("https://scontent-sea1-1.xx.fbcdn.net/v/t35.0-12/20353857_2068801643145709_1526845603_o.png?oh=5df4e20ff803eeb6846ad8e021fda325&oe=59799B45");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 33px 50px 30px 40px;
+}
+
+.jumbotron h1{
+    color: white;
+    font-family: papyrus, fantasy;
+    font-size: 45px;
+    text-shadow: white;
+    text-decoration: line-through wavy #FFC300 ;
+    text-align: center ;
+    font-style: italic;
+
+
+}
+
+
+p {
+	 font-family: verdana ;
+   color: white;
+    font-size: 15px;
+    t
+    }
+p1 {
+	font-family: verdana;
+    font-size: 20px;
+  color: white;
+    }
+
+</style>
+<body>
+
+<div class="jumbotron text-center position fixed">
+  <h1 style="text-align:left; letter-spacing: 30px; ">
+    <span style=" font-weight: bold;
+    border-bottom: 3px dashed red;
+    margin-bottom: -1px ; ">WELCOME</span>
+    <span style="float:right; text-decoration: overline underline #B060EE;
+    letter-spacing: 15px;text-decoration-style:wavy; padding: 5px 3px; "
+    >TO MY SITE!!!</span>
+  </h1>
+</div>
+<p1>Hello! I wanna know your name!</p1>
+
+<form id="form1">
+<span style = "color: white;">Please Enter Your Name:  </br></span>
+<input name="name" type="text" size="20">
+<input type="outputname()" style="display: none" />
+</form>
+<button onclick="outputname()">Submit</button>
+<p id="demo"></p>
+
+<div class="girl"></div>
+<div style="height:1000px;background-color: #EEA8BB;font-size:36px">
+</div>
+
+<div class="guy"></div>
+<div style="height:1000px;background-color:#AEC0F8 ;font-size:36px">
+</div>
+
+<div class="met"></div>
+<div style="height:1000px;background-color:#8D3782 ;font-size:36px">
+</div>
+
+<div class="together"></div>
+<div style="height:1000px;background-color:#71ADDC;font-size:36px">
+</div>
+<div class="last"></div>
+
+
+<script>
+
+function outputname() {
+var x,y,name,a,b,answer;
+x=document.getElementById("form1") ;
+y=x.elements["name"].value;
+document.getElementById("demo").innerHTML="Hello "+y+",<br>";
+document.getElementById("demo").innerHTML+=y+ ",Thank you for visiting my page! Have fun! <br>";
+
+}
+
+</script>
+
+
+
+</body>
+</html>
